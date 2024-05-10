@@ -80,7 +80,7 @@ public class JPACocheDao implements Dao<Coche>{
 			
 			if(cocheActual.getId()==id) {
 				it.remove();
-				encontrado = false;
+				encontrado = true;
 			}
 		}
 		
